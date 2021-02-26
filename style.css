@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Oxygen:wght@300&display=swap');
+
+body{
+    margin: 0px;
+    background: linear-gradient(to left, #64b3f4, #c2e59c);
+}
+.pageContainer{
+    position: relative;
+  min-height: 100vh;
+  padding-bottom: 100px;
+}
+.contentWrap{
+    padding-bottom: 2.5rem;
+}
+.blur{
+    filter: blur(4px);
+}
+
+/* popup */
+.notice{
+    background-color: black;
+    color: white;
+    position: absolute;
+    margin: auto;
+    max-width: 300px;
+    padding: 3rem;
+    position: relative;
+    border-radius: 1rem;
+}
+.btnprivacy{
+    border: 0;
+    text-align: center;
+    padding: 0.6rem;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+/* content and form */
+h1{
+    margin: 5% 0;
+    font-family: 'Monoton', cursive;
+    font-size: xxx-large;
+}
+form{
+    margin-bottom: 2rem;
+}
+form,h1,h3{
+    text-align: center;
+}
+h3{
+    max-width: 600px;
+    margin: auto;
+}
+p,h3{
+    font-family: 'Roboto', sans-serif;;
+}
+.dob,.number,.buttonn{
+    border: 0;
+    text-align: center;
+    padding: 0.6rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    margin: 0 0.5rem;
+}
+.number{
+    width: 245px;
+}
+.buttonn{
+    width: 100px;
+}
+.dob:focus, .number:focus, .buttonn:focus, .btnprivacy:focus{
+    outline: none;
+}
+img{
+    height: 300px;
+    width: 300px;
+    margin: 1rem auto;
+}
+
+/* footer */
+footer{
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    margin-top: -100px;
+}
+.fa{
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+}
+li{
+    display: inline;
+    padding: 0 2rem;
+    font-size: 30px;
+}
+ul{
+    text-align: center;
+}
+button{
+    cursor: pointer;
+}
